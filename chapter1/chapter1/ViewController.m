@@ -43,7 +43,7 @@
     [self.view addSubview:layerView];
     
     // 1.图片处于中间
-//    layerView.layer.contentsGravity = kCAGravityCenter;
+    layerView.layer.contentsGravity = kCAGravityCenter;
     
     // 2.图片缩放比例
 //    layerView.layer.contentsScale = img.scale;
